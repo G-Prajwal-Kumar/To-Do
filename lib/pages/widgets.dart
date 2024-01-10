@@ -323,7 +323,7 @@ class _CreateTodoWidgetState extends State<CreateTodoWidget> {
                       statusController.text = value.toString();
                     },
                     decoration: const InputDecoration(
-                      labelText: 'Description',
+                      labelText: 'Status',
                       border : OutlineInputBorder(
                         borderRadius: BorderRadius.all(Radius.circular(10)),
                       )
