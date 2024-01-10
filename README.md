@@ -6,6 +6,8 @@ One notable feature of this To-Do app is the implementation of local storage usi
   
 With the app, users can add, edit, and delete tasks, keeping track of their to-do lists conveniently. The local storage functionality ensures that task data is stored securely on the user's device, offering a seamless and responsive experience. The combination of Flutter's flexible UI development capabilities and SQLite's local storage solutions makes your ToDo app a versatile and user-friendly task management tool.  
   
+The Final Version of the App can be found in the Final APP folder.
+  
 # Instructions to set up and run the application  
 
 ## Step - 1  
