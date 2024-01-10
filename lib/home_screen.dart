@@ -48,6 +48,7 @@ class _HomeScreenState extends State<HomeScreen> with SingleTickerProviderStateM
 
   @override
   Widget build(BuildContext context) {
+    fetchCats();
     return Scaffold(
       backgroundColor: Colors.grey[100],
       appBar: AppBar(
@@ -391,7 +392,7 @@ class _HomeScreenState extends State<HomeScreen> with SingleTickerProviderStateM
                                           Text(
                                             "${entry.key}", 
                                             style: TextStyle(
-                                              fontSize: 25, 
+                                              fontSize: 22, 
                                               fontWeight: FontWeight.bold,
                                               color: filters['category'] == entry.key ? Colors.white : Colors.black
                                             ),
