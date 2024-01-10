@@ -392,7 +392,7 @@ class _HomeScreenState extends State<HomeScreen> with SingleTickerProviderStateM
                                           Text(
                                             "${entry.key}", 
                                             style: TextStyle(
-                                              fontSize: 22, 
+                                              fontSize: 20, 
                                               fontWeight: FontWeight.bold,
                                               color: filters['category'] == entry.key ? Colors.white : Colors.black
                                             ),
