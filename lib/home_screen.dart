@@ -87,7 +87,7 @@ class _HomeScreenState extends State<HomeScreen> with SingleTickerProviderStateM
                               });
                             },
                             decoration: const InputDecoration(
-                              labelText: "Search",
+                              labelText: "Search Title",
                               border: OutlineInputBorder(
                                 borderRadius: BorderRadius.all(Radius.circular(10)),
                                 borderSide: BorderSide(
